@@ -1,16 +1,16 @@
 require 'tweetstream'
 require 'twitter'
 cli = Twitter::REST::Client.new do |config|
-  config.consumer_key       = 'P5huEHBWxdwd11ijdEg5RA'
-  config.consumer_secret    = 'PmXQxojf1kcPwJ5Mt4s7Zqhrs45rebjjwD4rmx5FK8'
-  config.access_token        = '2202801997-yfLS4OdYiWBtDQh1x8ppkfk5cTgZLtTtb0FGtd8'
-  config.access_token_secret = '0mFMUUsMYFuAOhT8e7LkrArqt9Kq7XPwJPhItPye5RpjZ'
+  config.consumer_key       = '********************'
+  config.consumer_secret    = '********************'
+  config.access_token        = '********************'
+  config.access_token_secret = '********************'
 end
 TweetStream.configure do |config|
-  config.consumer_key       = 'P5huEHBWxdwd11ijdEg5RA'
-  config.consumer_secret    = 'PmXQxojf1kcPwJ5Mt4s7Zqhrs45rebjjwD4rmx5FK8'
-  config.oauth_token        = '2202801997-yfLS4OdYiWBtDQh1x8ppkfk5cTgZLtTtb0FGtd8'
-  config.oauth_token_secret = '0mFMUUsMYFuAOhT8e7LkrArqt9Kq7XPwJPhItPye5RpjZ'
+  config.consumer_key       = '********************'
+  config.consumer_secret    = '********************'
+  config.oauth_token        = '********************'
+  config.oauth_token_secret = '********************'
   config.auth_method        = :oauth
 end
 
